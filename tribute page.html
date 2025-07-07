@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="tribute page.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <header>JS Documentation</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#Variables">Variables</a>
+    <a class="nav-link" href="#Functions">Functions</a>
+    <a class="nav-link" href="#Loops">Loops</a>
+    <a class="nav-link" href="#Conclusion">Conclusion</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>JavaScript is a versatile language used for web development.</p>
+      <p>It runs in browsers and on servers (Node.js).</p>
+      <p>It supports functional, object-oriented, and event-driven styles.</p>
+      <p>You can embed it in HTML using the &lt;script&gt; tag.</p>
+      <p>JavaScript syntax is C-style.</p>
+      <p>Variables, functions, and control flow are core parts.</p>
+      <p>It interacts with the DOM for UI manipulation.</p>
+      <p>Modern JS supports classes and modules.</p>
+      <p>Browser APIs like fetch() allow AJAX calls.</p>
+      <p>Use developer tools to debug in real time.</p>
+      <code>console.log('Hello, JS');</code>
+    </section>
+
+    <section class="main-section" id="Variables">
+      <header>Variables</header>
+      <p>Use <code>let</code>, <code>const</code>, or <code>var</code>.</p>
+      <p><code>let</code> allows reassignment; <code>const</code> does not.</p>
+      <p><code>var</code> is function-scoped and outdated.</p>
+      <ul>
+        <li>let age = 25;</li>
+        <li>const name = "Alice";</li>
+        <li>var score = 100;</li>
+      </ul>
+      <p>Avoid using <code>var</code> in modern code.</p>
+      <p>Always declare variables before use.</p>
+      <code>let message = "Hi";</code>
+    </section>
+
+    <section class="main-section" id="Functions">
+      <header>Functions</header>
+      <p>Functions are declared using <code>function</code> or as arrow functions.</p>
+      <p>They improve reusability and structure.</p>
+      <code>function greet(name) { return "Hello " + name; }</code>
+      <code>const add = (a, b) => a + b;</code>
+      <p>Arrow functions are concise.</p>
+      <p>You can pass functions as arguments (higher-order functions).</p>
+      <ul>
+        <li>Pure functions</li>
+        <li>Callback functions</li>
+        <li>Recursive functions</li>
+      </ul>
+      <p>Use parameters to make functions dynamic.</p>
+    </section>
+
+    <section class="main-section" id="Loops">
+      <header>Loops</header>
+      <p>Loops repeat blocks of code.</p>
+      <p>Types: <code>for</code>, <code>while</code>, <code>do...while</code>, <code>forEach</code></p>
+      <p>Use <code>break</code> to exit early.</p>
+      <code>for (let i = 0; i < 5; i++) { console.log(i); }</code>
+      <code>let i = 0; while (i < 5) { i++; }</code>
+      <p>Use loops to process arrays.</p>
+      <ul>
+        <li>for loops</li>
+        <li>while loops</li>
+        <li>for-of and for-in</li>
+      </ul>
+      <p>Array methods can replace many loops.</p>
+    </section>
+
+    <section class="main-section" id="Conclusion">
+      <header>Conclusion</header>
+      <p>JavaScript is essential for interactive web pages.</p>
+      <p>It has evolved with ES6 and beyond.</p>
+      <p>Modern JS supports OOP, async/await, and modules.</p>
+      <p>Used in both frontend and backend (Node.js).</p>
+      <code>export default function App() {}</code>
+      <ul>
+        <li>HTML + CSS + JS = Web</li>
+        <li>Use frameworks like React</li>
+      </ul>
+      <p>Keep practicing and building!</p>
+      <p>Refer to MDN Docs for deeper knowledge.</p>
+      <p>Use freeCodeCamp to get certified!</p>
+    </section>
+  </main>
+</body>
+</html>
